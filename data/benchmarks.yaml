@@ -1,0 +1,355 @@
+- name: FHM
+  year: 2020
+  languages:
+  - English
+  tasks:
+  - Hate Detection
+  paper: https://proceedings.mlr.press/v133/kiela21a.html
+  dataset_url: https://ai.meta.com/tools/hatefulmemes/
+  access: public
+  size: 12540
+- name: Memotion
+  year: 2020
+  languages:
+  - English
+  tasks:
+  - Humor Classification
+  - Scales of Semantic Classes
+  - Sentiment Classification
+  paper: https://aclanthology.org/2020.semeval-1.99
+  dataset_url: https://competitions.codalab.org/competitions/20629#learn_the_details-evaluation
+  access: public
+  size: 9871
+- name: MultiOFF
+  year: 2020
+  languages:
+  - English
+  tasks:
+  - Offensiveness Detection
+  paper: https://aclanthology.org/2020.trac-1.6/
+  dataset_url: https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text?tab=readme-ov-file
+  access: public
+  size: 743
+- name: TamilMemes
+  year: 2020
+  languages:
+  - Tamil
+  tasks:
+  - Troll Detection
+  paper: https://aclanthology.org/2020.wildre-1.2/
+  dataset_url: https://github.com/sharduls007/TamilMemes
+  access: on-request
+  size: 2969
+- name: “Jewtocracy”
+  year: 2020
+  languages:
+  - English
+  tasks:
+  - Antisemitism Classification
+  paper: https://arxiv.org/abs/2104.05947
+  dataset_url: https://github.com/mohit3011/Online-Antisemitism-Detection-Using-MultimodalDeep-Learning/blob/main/Twitter%20Antisemitism%20Dataset.tsv
+  access: public
+  size: 6611
+- name: Harm-C and Harm-P
+  year: 2021
+  languages:
+  - English
+  tasks:
+  - Harm Detection
+  paper: https://aclanthology.org/2021.findings-emnlp.379/
+  dataset_url: https://github.com/LCS2-IIITD/MOMENTA/tree/main/HarMeme_V1
+  access: public
+  size: 7096
+- name: HarMeme
+  year: 2021
+  languages:
+  - English
+  tasks:
+  - Harm Detection
+  paper: https://aclanthology.org/2021.findings-acl.246/
+  dataset_url: https://github.com/di-dimitrov/harmeme?tab=readme-ov-file
+  access: public
+  size: 3544
+- name: SemEval-2021-Task6
+  year: 2021
+  languages:
+  - English
+  tasks:
+  - Persuasion Technique Detection
+  - Persuasion Technique Explanation
+  paper: https://aclanthology.org/2021.semeval-1.7
+  dataset_url: https://github.com/di-dimitrov/SEMEVAL-2021-task6-corpus/tree/main/data
+  access: public
+  size: 950
+- name: WOAH5
+  year: 2021
+  languages:
+  - English
+  tasks:
+  - Hated Target Group Classification
+  - Hatred Attack Type Classification
+  paper: https://aclanthology.org/2021.woah-1.21
+  dataset_url: https://github.com/facebookresearch/fine_grained_hateful_memes
+  access: public
+  size: 10540
+- name: “Propaganda Techniques in Memes”
+  year: 2021
+  languages:
+  - English
+  tasks:
+  - Persuasion Technique Detection
+  paper: https://aclanthology.org/2021.acl-long.516
+  dataset_url: https://github.com/di-dimitrov/propaganda-techniques-in-memes
+  access: public
+  size: 950
+- name: Ext-Harm-P
+  year: 2022
+  languages:
+  - English
+  tasks:
+  - Target Classification
+  paper: https://aclanthology.org/2022.findings-naacl.118/
+  dataset_url: https://github.com/LCS2-IIITD/DISARM/tree/main/DISARM_Dataset
+  access: public
+  size: 4446
+- name: FigMemes
+  year: 2022
+  languages:
+  - English
+  tasks:
+  - Figurative Language Classification
+  paper: https://aclanthology.org/2022.emnlp-main.476/
+  dataset_url: https://github.com/UKPLab/emnlp2022-figmemes
+  access: form
+  size: 5141
+- name: HVVMemes
+  year: 2022
+  languages:
+  - English
+  tasks:
+  - Entity Role Classification
+  paper: https://aclanthology.org/2022.constraint-1.1/
+  dataset_url: https://codalab.lisn.upsaclay.fr/competitions/906
+  access: public
+  size: 7000
+- name: MAMI
+  year: 2022
+  languages:
+  - English
+  tasks:
+  - Misogyny Detection
+  paper: https://aclanthology.org/2022.semeval-1.74/
+  dataset_url: https://competitions.codalab.org/competitions/34175
+  access: on-request
+  size: 11000
+- name: MemoSen
+  year: 2022
+  languages:
+  - Bengali
+  tasks:
+  - Sentiment Classification
+  paper: https://aclanthology.org/2022.lrec-1.165/
+  dataset_url: null
+  access: unavailable
+  size: 4417
+- name: MET-Meme
+  year: 2022
+  languages:
+  - Chinese
+  - English
+  tasks:
+  - Intention Classification
+  - Metaphor Prediction
+  paper: https://dl.acm.org/doi/10.1145/3477495.3532019
+  dataset_url: https://github.com/liaolianfoka/MET-Meme-A-Multi-modal-Meme-Dataset-Rich-in-Metaphors?tab=readme-ov-file
+  access: public
+  size: 10045
+- name: MultiBully
+  year: 2022
+  languages: []
+  tasks:
+  - Bully Detection
+  - Emotion Classification
+  - Sarcasm Detection
+  - Sentiment Classification
+  paper: https://dl.acm.org/doi/abs/10.1145/3477495.3531925
+  dataset_url: null
+  access: unavailable
+  size: 5854
+- name: Multimodal Sentiment Analysis and Troll Meme Classification in Dravidian Languages
+  year: 2022
+  languages:
+  - Malayalam
+  - Tamil
+  tasks:
+  - Sentiment Classification
+  - Troll Detection
+  paper: https://aclanthology.org/2022.dravidianlangtech-1.39/
+  dataset_url: null
+  access: unavailable
+  size: 134
+- name: MUTE
+  year: 2022
+  languages:
+  - Bengali
+  - English
+  tasks:
+  - Hate Detection
+  paper: https://aclanthology.org/2022.aacl-srw.5
+  dataset_url: null
+  access: unavailable
+  size: 4158
+- name: BanglaAbuseMeme
+  year: 2023
+  languages:
+  - Bengali
+  tasks:
+  - Abuse Detection
+  - Sarcasm Detection
+  - Sentiment Classification
+  - Target Classification
+  - Vulgar Detection
+  paper: https://aclanthology.org/2023.emnlp-main.959/
+  dataset_url: https://github.com/hate-alert/BanglaAbuseMeme
+  access: public
+  size: 4043
+- name: ExHVV
+  year: 2023
+  languages:
+  - English
+  tasks:
+  - Entity Role Explanation
+  paper: https://dl.acm.org/doi/10.1609/aaai.v37i8.26166
+  dataset_url: null
+  access: unavailable
+  size: 4680
+- name: HatReD
+  year: 2023
+  languages:
+  - English
+  tasks:
+  - Hate Explanation
+  paper: https://www.ijcai.org/proceedings/2023/665
+  dataset_url: https://github.com/Social-AI-Studio/HatRed
+  access: public
+  size: 3328
+- name: MCC
+  year: 2023
+  languages:
+  - English
+  tasks:
+  - Background knowledge relevance classification
+  paper: https://aclanthology.org/2023.acl-long.289/
+  dataset_url: https://github.com/LCS2-IIITD/MEMEX_Meme_Evidence?tab=readme-ov-file
+  access: public
+  size: 3003
+- name: MemeCap
+  year: 2023
+  languages:
+  - English
+  tasks:
+  - Captioning
+  paper: https://aclanthology.org/2023.emnlp-main.89/
+  dataset_url: https://github.com/eujhwang/meme-cap
+  access: public
+  size: 6387
+- name: Persuasive_meme
+  year: 2023
+  languages:
+  - English
+  - Hindi
+  tasks:
+  - Persuasion Technique Detection
+  - Persuasive Meme Detection
+  - Persuasiveness evaluation
+  paper: https://aclanthology.org/2023.ijcnlp-main.61/
+  dataset_url: null
+  access: unavailable
+  size: 6000
+- name: RESTORE
+  year: 2023
+  languages:
+  - English
+  tasks:
+  - Depression Symptom Classification
+  paper: https://aclanthology.org/2023.acl-long.495/
+  dataset_url: https://docs.google.com/forms/d/e/1FAIpQLSeK8h2TvDt-XzZzvy0vWvjauDAX8eUXJ6OUuoAfd4ZqWQPqLA/viewform
+  access: form
+  size: 9837
+- name: ArAIEval
+  year: 2024
+  languages:
+  - Arabic
+  tasks:
+  - Propaganda Detection
+  paper: https://aclanthology.org/2024.arabicnlp-1.44/
+  dataset_url: https://araieval.gitlab.io/
+  access: public
+  size: 3062
+- name: BHM (Bengali Hateful Memes)
+  year: 2024
+  languages:
+  - Bengali
+  tasks:
+  - Hate Detection
+  - Hated Target Group Classification
+  paper: https://aclanthology.org/2024.acl-long.454/
+  dataset_url: https://drive.google.com/file/d/1uftdZXcf00X2MQVb8UUcRMaIor7Pfd1w/view
+  access: public
+  size: 7148
+- name: ICMM
+  year: 2024
+  languages:
+  - English
+  - Hindi
+  tasks:
+  - Cyberbullying Intervention Generation
+  paper: https://aclanthology.org/2024.acl-long.439/
+  dataset_url: https://github.com/Jhaprince/MemeGuard
+  access: public
+  size: 5854
+- name: LT-EDI@EACL 2024 (Misogynistic and Trolls)
+  year: 2024
+  languages:
+  - Malayalam
+  - Tamil
+  tasks:
+  - Misogyny Detection
+  paper: https://aclanthology.org/2024.ltedi-1.13/
+  dataset_url: null
+  access: unavailable
+  size: 1776
+- name: MemeMQA
+  year: 2024
+  languages:
+  - English
+  tasks:
+  - Q&A
+  paper: https://aclanthology.org/2024.findings-acl.300/
+  dataset_url: null
+  access: unavailable
+  size: null
+- name: MIMOSA
+  year: 2024
+  languages:
+  - Bengali
+  tasks:
+  - Aggression Classification
+  paper: https://aclanthology.org/2024.eacl-long.153/
+  dataset_url: https://github.com/shawlyahsan/Bengali-Aggression-Memes
+  access: public
+  size: 4848
+- name: SemEval-2024-Task4
+  year: 2024
+  languages:
+  - Arabic
+  - Bulgarian
+  - English
+  - North Macedonian
+  tasks:
+  - Persuasion Technique Detection
+  - Persuasion Technique Explanation
+  paper: https://aclanthology.org/2024.semeval-1.275/
+  dataset_url: null
+  access: unavailable
+  size: 10000
