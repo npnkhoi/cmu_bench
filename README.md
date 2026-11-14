@@ -41,7 +41,7 @@ Contributions are welcome.
 | MemeInterpret | 2025 | Captioning, Surface Message Generation, Background Knowledge Generation | Web | [Paper](https://aclanthology.org/2025.findings-emnlp.871/) | [Link](https://github.com/npnkhoi/MemeInterpret) | 6,810 |
 | MemeQA | 2025 | Multiple-choice Q&A | Facebook | [Paper](https://aclanthology.org/2025.acl-long.927/) | [Link](https://github.com/npnkhoi/memeqa) | 950 |
 | MemeIntent | 2024 | Intent Description Generation, Background Knowledge Generation | Facebook | [Paper](https://aclanthology.org/2024.sigdial-1.54/) | [Link](https://github.com/lucasjeongsikpark/MemeIntent) | 950 |
-| MemeMQA | 2024 | Q&A | Google Images, Instagram | [Paper](https://aclanthology.org/2024.findings-acl.300/) | Unavailable | 1,880 |
+| MemeMQA | 2024 | Q&A | Google Images, Instagram | [Paper](https://aclanthology.org/2024.findings-acl.300/) | Unavailable | 1,122 |
 | MMD (MeSum) | 2024 | Meme Summarization | Reddit | [Paper](https://aclanthology.org/2024.findings-emnlp.389/) | Unavailable | 13,494 |
 | ExHVV | 2023 | Entity Role Explanation | Google Images, Instagram | [Paper](https://dl.acm.org/doi/10.1609/aaai.v37i8.26166) | Unavailable | 4,680 |
 | HatReD | 2023 | Hate Explanation | Web | [Paper](https://www.ijcai.org/proceedings/2023/665) | [Link](https://github.com/Social-AI-Studio/HatRed) | 3,328 |
