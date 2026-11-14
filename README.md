@@ -8,7 +8,7 @@ Contributions are welcome.
 ## Benchmarks
 
 <!-- AUTOGEN:START -->
-**44 datasets** across **11 languages**.
+**45 datasets** across **11 languages**.
 
 ### Amharic
 
@@ -36,6 +36,7 @@ Contributions are welcome.
 | Name | Year | Tasks | Platform sources | Paper | Data | Size |
 |---|---|---|---|---|---|---:|
 | M-QUEST | 2026 | Semantic Understanding Q&A, Toxicity Q&A | Web | [Paper](https://aclanthology.org/2026.emnlp-main.164/) | [Link](https://huggingface.co/datasets/vulr/M-QUEST) | 307 |
+| MemeArgs | 2026 | Vision-Language Argument Parsing | Facebook | [Paper](https://aclanthology.org/2026.emnlp-main.2361/) | [Link](https://github.com/npnkhoi/memeargs/tree/main/data) | 614 |
 | CLIMATEMEMES | 2025 | Stance Detection, Media Frame Detection | Reddit | [Paper](https://aclanthology.org/2025.findings-emnlp.286/) | [Link](https://github.com/mainlp/ClimateMemes) | 1,184 |
 | MemeInterpret | 2025 | Captioning, Surface Message Generation, Background Knowledge Generation | Web | [Paper](https://aclanthology.org/2025.findings-emnlp.871/) | [Link](https://github.com/npnkhoi/MemeInterpret) | 6,810 |
 | MemeQA | 2025 | Multiple-choice Q&A | Facebook | [Paper](https://aclanthology.org/2025.acl-long.927/) | [Link](https://github.com/npnkhoi/memeqa) | 950 |
@@ -102,7 +103,7 @@ Inherited sources follow the originating datasets: ICMM → MultiBully;
 HVVMemes → HarMeme; Ext-Harm-P → Harm-C and Harm-P; ExHVV → HVVMemes;
 HatReD → WOAH5; MemeMQA → ExHVV. *Not reported* means the CSV gives no sources.
 M-QUEST inherits its Web source from the Hateful Memes dataset.
-MultiBully-Ex inherits sources from MultiBully; MemeIntent and MemeQA from
+MultiBully-Ex inherits sources from MultiBully; MemeArgs, MemeIntent, and MemeQA from
 SemEval-2021-Task6; MemeInterpret from Hateful Memes.
 
 **Size** counts memes (or annotated visual items for VIDA), not questions or annotations.

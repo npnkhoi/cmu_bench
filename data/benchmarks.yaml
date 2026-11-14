@@ -1,3 +1,15 @@
+- name: MemeArgs
+  year: 2026
+  languages:
+  - English
+  tasks:
+  - Vision-Language Argument Parsing
+  paper: https://aclanthology.org/2026.emnlp-main.2361/
+  dataset_url: https://github.com/npnkhoi/memeargs/tree/main/data
+  access: public
+  size: 614
+  platforms:
+  - Facebook
 - name: M-QUEST
   year: 2026
   languages:
