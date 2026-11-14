@@ -1,3 +1,16 @@
+- name: M-QUEST
+  year: 2026
+  languages:
+  - English
+  tasks:
+  - Semantic Understanding Q&A
+  - Toxicity Q&A
+  paper: https://aclanthology.org/2026.emnlp-main.164/
+  dataset_url: https://huggingface.co/datasets/vulr/M-QUEST
+  access: public
+  size: 307
+  platforms:
+  - Web
 - name: FHM
   year: 2020
   languages:
@@ -8,6 +21,8 @@
   dataset_url: https://ai.meta.com/tools/hatefulmemes/
   access: public
   size: 12540
+  platforms:
+  - Web
 - name: Memotion
   year: 2020
   languages:
@@ -20,6 +35,8 @@
   dataset_url: https://competitions.codalab.org/competitions/20629#learn_the_details-evaluation
   access: public
   size: 9871
+  platforms:
+  - Google Images
 - name: MultiOFF
   year: 2020
   languages:
@@ -30,6 +47,11 @@
   dataset_url: https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text?tab=readme-ov-file
   access: public
   size: 743
+  platforms:
+  - Facebook
+  - Instagram
+  - Reddit
+  - Twitter
 - name: TamilMemes
   year: 2020
   languages:
@@ -40,6 +62,11 @@
   dataset_url: https://github.com/sharduls007/TamilMemes
   access: on-request
   size: 2969
+  platforms:
+  - Facebook
+  - Instagram
+  - Pinterest
+  - WhatsApp
 - name: “Jewtocracy”
   year: 2020
   languages:
@@ -50,6 +77,9 @@
   dataset_url: https://github.com/mohit3011/Online-Antisemitism-Detection-Using-MultimodalDeep-Learning/blob/main/Twitter%20Antisemitism%20Dataset.tsv
   access: public
   size: 6611
+  platforms:
+  - Gab
+  - Twitter
 - name: Harm-C and Harm-P
   year: 2021
   languages:
@@ -60,6 +90,11 @@
   dataset_url: https://github.com/LCS2-IIITD/MOMENTA/tree/main/HarMeme_V1
   access: public
   size: 7096
+  platforms:
+  - Google Images
+  - Facebook
+  - Instagram
+  - Reddit
 - name: HarMeme
   year: 2021
   languages:
@@ -70,6 +105,9 @@
   dataset_url: https://github.com/di-dimitrov/harmeme?tab=readme-ov-file
   access: public
   size: 3544
+  platforms:
+  - Google Images
+  - Instagram
 - name: SemEval-2021-Task6
   year: 2021
   languages:
@@ -81,6 +119,8 @@
   dataset_url: https://github.com/di-dimitrov/SEMEVAL-2021-task6-corpus/tree/main/data
   access: public
   size: 950
+  platforms:
+  - Facebook
 - name: WOAH5
   year: 2021
   languages:
@@ -92,6 +132,8 @@
   dataset_url: https://github.com/facebookresearch/fine_grained_hateful_memes
   access: public
   size: 10540
+  platforms:
+  - Web
 - name: “Propaganda Techniques in Memes”
   year: 2021
   languages:
@@ -102,6 +144,8 @@
   dataset_url: https://github.com/di-dimitrov/propaganda-techniques-in-memes
   access: public
   size: 950
+  platforms:
+  - Facebook
 - name: Ext-Harm-P
   year: 2022
   languages:
@@ -112,6 +156,11 @@
   dataset_url: https://github.com/LCS2-IIITD/DISARM/tree/main/DISARM_Dataset
   access: public
   size: 4446
+  platforms:
+  - Google Images
+  - Facebook
+  - Instagram
+  - Reddit
 - name: FigMemes
   year: 2022
   languages:
@@ -122,6 +171,8 @@
   dataset_url: https://github.com/UKPLab/emnlp2022-figmemes
   access: form
   size: 5141
+  platforms:
+  - 4chan
 - name: HVVMemes
   year: 2022
   languages:
@@ -132,6 +183,9 @@
   dataset_url: https://codalab.lisn.upsaclay.fr/competitions/906
   access: public
   size: 7000
+  platforms:
+  - Google Images
+  - Instagram
 - name: MAMI
   year: 2022
   languages:
@@ -142,6 +196,12 @@
   dataset_url: https://competitions.codalab.org/competitions/34175
   access: on-request
   size: 11000
+  platforms:
+  - 9GAG
+  - Imgur
+  - Know Your Meme
+  - Reddit
+  - Twitter
 - name: MemoSen
   year: 2022
   languages:
@@ -152,6 +212,9 @@
   dataset_url: null
   access: unavailable
   size: 4417
+  platforms:
+  - Facebook
+  - Instagram
 - name: MET-Meme
   year: 2022
   languages:
@@ -164,9 +227,16 @@
   dataset_url: https://github.com/liaolianfoka/MET-Meme-A-Multi-modal-Meme-Dataset-Rich-in-Metaphors?tab=readme-ov-file
   access: public
   size: 10045
+  platforms:
+  - Google Images
+  - Baidu
+  - Twitter
+  - Weibo
 - name: MultiBully
   year: 2022
-  languages: []
+  languages:
+  - English
+  - Hindi
   tasks:
   - Bully Detection
   - Emotion Classification
@@ -176,6 +246,9 @@
   dataset_url: null
   access: unavailable
   size: 5854
+  platforms:
+  - Reddit
+  - Twitter
 - name: Multimodal Sentiment Analysis and Troll Meme Classification in Dravidian Languages
   year: 2022
   languages:
@@ -188,6 +261,8 @@
   dataset_url: null
   access: unavailable
   size: 134
+  platforms:
+  - YouTube
 - name: MUTE
   year: 2022
   languages:
@@ -199,6 +274,10 @@
   dataset_url: null
   access: unavailable
   size: 4158
+  platforms:
+  - Facebook
+  - Instagram
+  - Twitter
 - name: BanglaAbuseMeme
   year: 2023
   languages:
@@ -213,6 +292,10 @@
   dataset_url: https://github.com/hate-alert/BanglaAbuseMeme
   access: public
   size: 4043
+  platforms:
+  - Google Images
+  - Facebook
+  - Instagram
 - name: ExHVV
   year: 2023
   languages:
@@ -223,6 +306,9 @@
   dataset_url: null
   access: unavailable
   size: 4680
+  platforms:
+  - Google Images
+  - Instagram
 - name: HatReD
   year: 2023
   languages:
@@ -233,6 +319,8 @@
   dataset_url: https://github.com/Social-AI-Studio/HatRed
   access: public
   size: 3328
+  platforms:
+  - Web
 - name: MCC
   year: 2023
   languages:
@@ -243,6 +331,9 @@
   dataset_url: https://github.com/LCS2-IIITD/MEMEX_Meme_Evidence?tab=readme-ov-file
   access: public
   size: 3003
+  platforms:
+  - Google Images
+  - Reddit
 - name: MemeCap
   year: 2023
   languages:
@@ -253,6 +344,8 @@
   dataset_url: https://github.com/eujhwang/meme-cap
   access: public
   size: 6387
+  platforms:
+  - Reddit
 - name: Persuasive_meme
   year: 2023
   languages:
@@ -266,6 +359,8 @@
   dataset_url: null
   access: unavailable
   size: 6000
+  platforms:
+  - Google Images
 - name: RESTORE
   year: 2023
   languages:
@@ -276,6 +371,9 @@
   dataset_url: https://docs.google.com/forms/d/e/1FAIpQLSeK8h2TvDt-XzZzvy0vWvjauDAX8eUXJ6OUuoAfd4ZqWQPqLA/viewform
   access: form
   size: 9837
+  platforms:
+  - Reddit
+  - Twitter
 - name: ArAIEval
   year: 2024
   languages:
@@ -286,6 +384,8 @@
   dataset_url: https://araieval.gitlab.io/
   access: public
   size: 3062
+  platforms:
+  - Twitter
 - name: BHM (Bengali Hateful Memes)
   year: 2024
   languages:
@@ -297,6 +397,11 @@
   dataset_url: https://drive.google.com/file/d/1uftdZXcf00X2MQVb8UUcRMaIor7Pfd1w/view
   access: public
   size: 7148
+  platforms:
+  - Blogs
+  - Facebook
+  - Instagram
+  - Pinterest
 - name: ICMM
   year: 2024
   languages:
@@ -308,6 +413,9 @@
   dataset_url: https://github.com/Jhaprince/MemeGuard
   access: public
   size: 5854
+  platforms:
+  - Reddit
+  - Twitter
 - name: LT-EDI@EACL 2024 (Misogynistic and Trolls)
   year: 2024
   languages:
@@ -319,6 +427,7 @@
   dataset_url: null
   access: unavailable
   size: 1776
+  platforms: []
 - name: MemeMQA
   year: 2024
   languages:
@@ -329,6 +438,9 @@
   dataset_url: null
   access: unavailable
   size: null
+  platforms:
+  - Google Images
+  - Instagram
 - name: MIMOSA
   year: 2024
   languages:
@@ -339,6 +451,11 @@
   dataset_url: https://github.com/shawlyahsan/Bengali-Aggression-Memes
   access: public
   size: 4848
+  platforms:
+  - Blogs
+  - Facebook
+  - Instagram
+  - Pinterest
 - name: SemEval-2024-Task4
   year: 2024
   languages:
@@ -353,3 +470,6 @@
   dataset_url: null
   access: unavailable
   size: 10000
+  platforms:
+  - Facebook
+  - Instagram

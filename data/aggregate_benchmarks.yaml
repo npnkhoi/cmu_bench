@@ -1,0 +1,5 @@
+- name: MemeLens
+  year: 2026
+  description: Consolidates 38 public meme datasets into 20 tasks spanning harm, targets, figurative/pragmatic intent, and affect; multilingual and explanation-enhanced.
+  paper: https://arxiv.org/abs/2601.12539
+  dataset_url: https://huggingface.co/datasets/QCRI/MemeLens
