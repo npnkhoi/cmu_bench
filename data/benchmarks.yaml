@@ -437,7 +437,7 @@
   paper: https://aclanthology.org/2024.findings-acl.300/
   dataset_url: null
   access: unavailable
-  size: null
+  size: 1880
   platforms:
   - Google Images
   - Instagram
@@ -473,3 +473,140 @@
   platforms:
   - Facebook
   - Instagram
+- name: MultiBully-Ex
+  year: 2024
+  languages:
+  - English
+  - Hindi
+  tasks:
+  - Cyberbullying Textual Explanation
+  - Cyberbullying Visual Explanation
+  paper: https://aclanthology.org/2024.eacl-long.56/
+  dataset_url: https://github.com/Jhaprince/MemeExplanation
+  access: public
+  size: 3222
+  platforms:
+  - Reddit
+  - Twitter
+- name: Amharic Hate Speech Memes
+  year: 2024
+  languages:
+  - Amharic
+  tasks:
+  - Hate Detection
+  paper: https://aclanthology.org/2024.trac-1.10/
+  dataset_url: https://github.com/uhh-lt/AmharicHateSpeech
+  access: public
+  size: 2000
+  platforms:
+  - Facebook
+  - Twitter
+  - Telegram
+- name: CM-Off-Meme
+  year: 2024
+  languages:
+  - English
+  - Hindi
+  tasks:
+  - Offensiveness Detection
+  - Explicit/Implicit Offense Classification
+  - Sarcasm Detection
+  - Sentiment Classification
+  - Emotion Classification
+  paper: https://aclanthology.org/2024.lrec-main.300/
+  dataset_url: https://github.com/Gitanjali1801/CM_MEMES
+  access: form
+  size: 6967
+  platforms:
+  - Google Images
+- name: Ukraine-conflict Memes
+  year: 2023
+  languages:
+  - English
+  tasks:
+  - Stance Classification
+  - Theme Classification
+  paper: https://doi.org/10.1007/978-3-031-26303-3_3
+  dataset_url: null
+  access: unavailable
+  size: 191
+  platforms: []
+- name: MemeIntent
+  year: 2024
+  languages:
+  - English
+  tasks:
+  - Intent Description Generation
+  - Background Knowledge Generation
+  paper: https://aclanthology.org/2024.sigdial-1.54/
+  dataset_url: https://github.com/lucasjeongsikpark/MemeIntent
+  access: public
+  size: 950
+  platforms:
+  - Facebook
+- name: MemeInterpret
+  year: 2025
+  languages:
+  - English
+  tasks:
+  - Captioning
+  - Surface Message Generation
+  - Background Knowledge Generation
+  paper: https://aclanthology.org/2025.findings-emnlp.871/
+  dataset_url: https://github.com/npnkhoi/MemeInterpret
+  access: public
+  size: 6810
+  platforms:
+  - Web
+- name: MemeQA
+  year: 2025
+  languages:
+  - English
+  tasks:
+  - Multiple-choice Q&A
+  paper: https://aclanthology.org/2025.acl-long.927/
+  dataset_url: https://github.com/npnkhoi/memeqa
+  access: public
+  size: 950
+  platforms:
+  - Facebook
+- name: VIDA
+  year: 2024
+  languages:
+  - English
+  - Italian
+  tasks:
+  - Content Classification
+  - Form Classification
+  - Hate Classification
+  paper: https://aclanthology.org/2024.woah-1.6/
+  dataset_url: https://github.com/uhh-lt/vida
+  access: form
+  size: 2181
+  platforms:
+  - Incel Forums
+- name: CLIMATEMEMES
+  year: 2025
+  languages:
+  - English
+  tasks:
+  - Stance Detection
+  - Media Frame Detection
+  paper: https://aclanthology.org/2025.findings-emnlp.286/
+  dataset_url: https://github.com/mainlp/ClimateMemes
+  access: public
+  size: 1184
+  platforms:
+  - Reddit
+- name: MMD (MeSum)
+  year: 2024
+  languages:
+  - English
+  tasks:
+  - Meme Summarization
+  paper: https://aclanthology.org/2024.findings-emnlp.389/
+  dataset_url: null
+  access: unavailable
+  size: 13494
+  platforms:
+  - Reddit
